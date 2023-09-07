@@ -1,0 +1,75 @@
+/* RESETS */
+
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: solid;
+}
+
+/* GLOBAL CLASSES */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+    font-weight: bold;
+}
+
+footer {
+    bottom: 0%;
+    position: fixed;
+}
+
+figure h2 {
+    font-size: 60px;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 1px 0 0 black, 0 -1px 0 black, 0 1px 0 black, -1px 0 0 black;
+}
+
+header nav {
+    text-align: right;
+    margin-right: 10px;
+}
+
+/* Hero Style */
+
+.hero {
+background-image: url(https://fastly.picsum.photos/id/29/4000/2670.jpg?hmac=rCbRAl24FzrSzwlR5tL-Aqzyu5tX_PA95VJtnUXegGU);
+background-size: cover;
+background-position: center;
+padding: 200px 0;
+}
+
+h2 {
+    color: whitesmoke;
+    text-shadow: 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black;
+}
+
+figure p {
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: 2px 0 0 black, 0 -2px 0 black, 0 2px 0 black, -2px 0 0 black;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
